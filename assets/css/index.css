@@ -1,0 +1,98 @@
+body{
+	font-family: Lora, serif;
+	font-size: 14px;
+	color: dimgray;
+}
+
+.banner{
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 25px;
+}
+
+.banner h1{
+	color: #001E6C;
+	font-family: Graphik, sans-serif;
+	font-weight: 600;
+	font-size: 60px;
+	margin: 0%;
+}
+
+.banner p{
+	color: black;
+	font-size: 18px;
+	line-height: 120%;
+}
+
+.banner a{
+	color: black;
+}
+
+.banner a:hover{
+	color: #FFAA4C;
+}
+
+.navbar{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	font-family: Graphik, sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	list-style-type: none;
+}
+
+.navbar a{
+	color: black;
+	padding: 20px 20px;
+	text-decoration: none;
+}
+
+.navbar a:hover{
+	color: #FFAA4C;
+	text-decoration: underline;
+}
+
+.project{
+	margin: 0% 18%;
+	padding-bottom: 15px;
+	border-bottom: 1px solid black;
+}
+
+.project h1{
+	color: #001E6C;
+	font-family: Graphik, sans-serif;
+	font-weight: 600;
+	font-size: 30px;
+}
+
+.project h2{
+	color: #035397;
+	font-family: Graphik, sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.project h3{
+	color: #5089C6;
+	font-family: Graphik, sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.project a{
+	color: black;
+	font-family: Graphik, sans-serif;
+	font-weight: 600;
+	text-decoration: none;
+	padding-right: 1.5%;
+}
+
+.project a:hover{
+	color:  orange;
+	text-decoration: underline;
+}

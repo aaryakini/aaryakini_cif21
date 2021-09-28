@@ -1,0 +1,148 @@
+body{
+	font-family: 'Basic Sans', sans-serif;
+	font-size: 22px;
+}
+
+/* main slide*/
+
+.header{ /*header*/
+	display: flex;
+	flex-flow: column wrap;
+	height: 100vh;
+	width: 100%;
+}
+
+.nav{  /*navigating between different versions of the site*/
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.button1{
+	color: black;
+	border: 4px solid black;
+	border-radius: 52px;
+	font-family: Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 11px 20px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+	margin: 10px;
+}
+
+a.button1 {
+	text-decoration: none;
+}
+
+a.button1:hover{
+	background-color: yellow;
+}
+
+.heading{
+	text-align: center;
+	align-items: center;
+}
+
+.heading h1{
+	font-family: Graphik, sans-serif;
+	font-size: 100px;
+	font-weight: bold;
+	color: blue;
+	line-height: 60%;
+}
+
+.sub{
+	font-size: 50px;
+}
+
+.button2 {
+	font-size: 25px;
+	color: blue;
+	font-weight: 600;
+	padding: 5px 5px 10px 5px;
+	background-color: yellow;
+	border-radius: 52px;
+	margin: 15px 36%;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+.heading h3{
+	font-size: 20px;
+	color: #939393;
+	font-weight: 400;
+	margin: 15px 36%;
+}
+
+.scroll{
+	text-align: center;
+	align-items: center;
+}
+
+.scroll h1{
+	font-family: Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.scroll img{
+	height: 60%;
+}
+
+
+/*all questions and responses*/
+
+.content{
+	margin: 5% 28%;
+}
+
+.question{
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: flex-start;
+	text-align: left;
+	font-weight: 500;
+	color: #000AFF;
+	margin-bottom: 60px;
+}
+
+.question img{
+	height: 102px;
+	padding-right: 15px;
+}
+
+.response{
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: flex-end;
+	text-align: right;
+	font-weight: 300;
+	color: #7D7AFF;
+	margin-bottom: 60px;
+}
+
+.response img{
+	height: 102px;
+	padding-left: 15px;
+}
+
+.fin{
+	text-align: center;
+	margin: 100px 0px 0px 0px;
+}
+
+.fin h1{
+	font-family: Graphik, sans-serif;
+	font-weight: 800;
+	font-size: 50px;
+	padding: 30px;
+	color: blue;
+}
+
+
+MAYBE IT WILL STOP MAKING NOISE SOON
+
+i sayy hey u say stfu
+

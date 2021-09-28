@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Nunito:wght@400;700&display=swap');
+
+.banner{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	font-weight: 900px;
+	text-align: center;
+	color: #06170e;
+}
+
+body{
+	background-image: url("images/bg.png");
+	font-family: 'Nunito', sans-serif;
+	font-size: 18px;
+	color: #06170e;
+}
+
+.all{
+	margin: 0% 30% 5% 30%;
+}
+
+ul{
+	list-style-type: none;
+	text-align: center;
+	line-height: 50px;
+	position: relative;
+}
+
+.song:hover{
+	font-size: 22px;
+	font-weight: bold;
+	color: white;
+	background-color: #092215;
+	border-radius: 30px;
+}
+
+#one:hover:after{
+	content: url(images/1.png);
+	position: absolute;
+	transform: scale(0.5);
+	transform-origin: right top;
+
+	animation: fadeIn ease 1s;
+	-webkit-animation: fadeIn ease 1s;
+	-moz-animation: fadeIn ease 1s;
+}
+
+#two:hover:after{
+	content: url(images/2.png);
+	position: absolute;
+	transform: scale(0.5);
+	transform-origin: right top;
+
+	animation: fadeIn ease 1s;
+	-webkit-animation: fadeIn ease 1s;
+	-moz-animation: fadeIn ease 1s;
+}
+
+#three:hover:after{
+	content: url(images/3.png);
+	position: absolute;
+	transform: scale(0.5);
+	transform-origin: right top;
+
+	animation: fadeIn ease 1s;
+	-webkit-animation: fadeIn ease 1s;
+	-moz-animation: fadeIn ease 1s;
+}
+
+#four:hover:after{
+	content: url(images/4.png);
+	position: absolute;
+	transform: scale(0.5);
+	transform-origin: right top;
+
+	animation: fadeIn ease 1s;
+	-webkit-animation: fadeIn ease 1s;
+	-moz-animation: fadeIn ease 1s;
+}
+
+#five:hover:after{
+	content: url(images/5.png);
+	position: absolute;
+	transform: scale(0.5);
+	transform-origin: right top;
+
+	animation: fadeIn ease 1s;
+	-webkit-animation: fadeIn ease 1s;
+	-moz-animation: fadeIn ease 1s;
+}
+
+#six:hover:after{
+	content: url(images/6.png);
+	position: absolute;
+	transform: scale(0.5);
+	transform-origin: right top;
+
+	animation: fadeIn ease 1s;
+	-webkit-animation: fadeIn ease 1s;
+	-moz-animation: fadeIn ease 1s;
+}
+
+#seven:hover:after{
+	content: url(images/7.png);
+	position: absolute;
+	transform: scale(0.5);
+	transform-origin: right top;
+
+	animation: fadeIn ease 1s;
+	-webkit-animation: fadeIn ease 1s;
+	-moz-animation: fadeIn ease 1s;
+}
+
+#eight:hover:after{
+	content: url(images/8.png);
+	position: absolute;
+	transform: scale(0.5);
+	transform-origin: right top;
+
+	animation: fadeIn ease 1s;
+	-webkit-animation: fadeIn ease 1s;
+	-moz-animation: fadeIn ease 1s;
+}
+
+#nine:hover:after{
+	content: url(images/9.png);
+	position: absolute;
+	transform: scale(0.5);
+	transform-origin: right top;
+
+	animation: fadeIn ease 1s;
+	-webkit-animation: fadeIn ease 1s;
+	-moz-animation: fadeIn ease 1s;
+}
+
+#ten:hover:after{
+	content: url(images/10.png);
+	position: absolute;
+	transform: scale(0.5);
+	transform-origin: right top;
+
+	animation: fadeIn ease 1s;
+	-webkit-animation: fadeIn ease 1s;
+	-moz-animation: fadeIn ease 1s;
+}
+
+#eleven:hover:after{
+	content: url(images/11.png);
+	position: absolute;
+	transform: scale(0.5);
+	transform-origin: right top;
+
+	animation: fadeIn ease 1s;
+	-webkit-animation: fadeIn ease 1s;
+	-moz-animation: fadeIn ease 1s;
+}
+
+#twelve:hover:after{
+	content: url(images/12.png);
+	position: absolute;
+	transform: scale(0.5);
+	transform-origin: right top;
+
+	animation: fadeIn ease 1s;
+	-webkit-animation: fadeIn ease 1s;
+	-moz-animation: fadeIn ease 1s;
+}
+
+#thirteen:hover:after{
+	content: url(images/13.png);
+	position: absolute;
+	transform: scale(0.5);
+	transform-origin: right top;
+
+	animation: fadeIn ease 1s;
+	-webkit-animation: fadeIn ease 1s;
+	-moz-animation: fadeIn ease 1s;
+}
+
+#fourteen:hover:after{
+	content: url(images/14.png);
+	position: absolute;
+	transform: scale(0.5);
+	transform-origin: right top;
+
+	animation: fadeIn ease 1s;
+	-webkit-animation: fadeIn ease 1s;
+	-moz-animation: fadeIn ease 1s;
+}
+
+#fifteen:hover:after{
+	content: url(images/15.png);
+	position: absolute;
+	transform: scale(0.5);
+	transform-origin: right top;
+
+	animation: fadeIn ease 1s;
+	-webkit-animation: fadeIn ease 1s;
+	-moz-animation: fadeIn ease 1s;
+}
+
+#sixteen:hover:after{
+	content: url(images/16.png);
+	position: absolute;
+	transform: scale(0.5);
+	transform-origin: right top;
+
+	animation: fadeIn ease 1s;
+	-webkit-animation: fadeIn ease 1s;
+	-moz-animation: fadeIn ease 1s;
+}
+
+#seventeen:hover:after{
+	content: url(images/17.png);
+	position: absolute;
+	transform: scale(0.5);
+	transform-origin: right top;
+
+	animation: fadeIn ease 1s;
+	-webkit-animation: fadeIn ease 1s;
+	-moz-animation: fadeIn ease 1s;
+}
+
+#eighteen:hover:after{
+	content: url(images/18.png);
+	position: absolute;
+	transform: scale(0.5);
+	transform-origin: right top;
+
+	animation: fadeIn ease 1s;
+	-webkit-animation: fadeIn ease 1s;
+	-moz-animation: fadeIn ease 1s;
+}
+
+/***************************************************************************************
+*    Title: How to Use CSS to Fade In and Fade Out HTML Text and Pictures
+*    Author: Tremaine Eto
+*    Date: 23 Oct 2019
+*    Availability: https://medium.com/cloud-native-the-gathering/how-to-use-css-to-fade-in-and-fade-out-html-text-and-pictures-f45c11364f08
+***************************************************************************************/
+
+/* Fade In */
+@keyframes fadeIn {
+	0% {
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
+}
+
+@-moz-keyframes fadeIn {
+	0% {
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
+}
+/***************************************************************************************/
+
+.footer{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#playlists{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.pl{
+	padding-right: 40px;
+}
+
+img {
+	height: 300px;
+}
+
+.footer h1{
+	font-size: 20px;
+	font-family: Montserrat, sans-serif;
+}
+
+.footer h2{
+	font-size: 18px;
+}

@@ -48,7 +48,7 @@ a.button1:hover{
 	font-family: Graphik, sans-serif;
 	font-size: 100px;
 	font-weight: bold;
-	color: blue;
+	color: #000AFF;
 	line-height: 60%;
 }
 
@@ -58,7 +58,7 @@ a.button1:hover{
 
 .button2 {
 	font-size: 25px;
-	color: blue;
+	color: #000AFF;
 	font-weight: 600;
 	padding: 5px 5px 10px 5px;
 	background-color: yellow;
@@ -138,7 +138,7 @@ a.button1:hover{
 	font-weight: 800;
 	font-size: 50px;
 	padding: 30px;
-	color: blue;
+	color: #000AFF;
 }
 
 

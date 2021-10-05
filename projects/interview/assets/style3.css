@@ -107,6 +107,7 @@ a.button1:hover{
 
 .content{
 	margin: 5% 28%;
+	text-transform: lowercase;
 }
 
 .question{

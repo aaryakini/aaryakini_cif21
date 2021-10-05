@@ -6,6 +6,8 @@ body{
 /* main slide*/
 
 .header{ /*header*/
+	box-sizing: border-box;
+	padding: 20px;
 	display: flex;
 	flex-flow: column wrap;
 	height: 100vh;
@@ -139,6 +141,8 @@ a.button1:hover{
 }
 
 .footer{ /*footer*/
+	box-sizing: border-box;
+	padding: 20px;
 	display: flex;
 	flex-flow: column wrap;
 	height: 100vh;

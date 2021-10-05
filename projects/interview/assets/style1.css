@@ -5,6 +5,8 @@ body{
 /* main slide*/
 
 .header{ /*header*/
+	box-sizing: border-box;
+	padding: 20px;
 	display: flex;
 	flex-flow: column wrap;
 	height: 100vh;
@@ -149,7 +151,7 @@ a.button1:hover{
 
 .response img{ /*hiding IB logo*/
 	display: none;
-	height: 102px;
+	height: 102px; 
 	padding-left: 15px;
 }
 
@@ -161,6 +163,8 @@ a.button1:hover{
 }
 
 .footer{ /*footer*/
+	box-sizing: border-box;
+	padding: 20px;
 	display: flex;
 	flex-flow: column wrap;
 	height: 100vh;
@@ -183,4 +187,10 @@ a.button1:hover{
 	margin: 50px;
 	text-align: center;
 	align-items: center;
+}
+
+.scroll2 h1{
+	font-family: Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: bold;
 }

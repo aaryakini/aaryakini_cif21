@@ -1,6 +1,7 @@
 body{
 	font-family: 'Basic Sans', sans-serif;
 	font-size: 22px;
+	background-image: linear-gradient(rgba(255, 255, 255,0), rgba(255, 255, 255,0), rgba(0, 10, 255,0.2), rgba(0, 10, 255,0.2), rgba(255, 255, 255,0), rgba(255, 255, 255,0));
 }
 
 /* main slide*/
@@ -130,7 +131,7 @@ a.button1:hover{
 	align-items: center;
 	justify-content: flex-end;
 	text-align: right;
-	font-weight: 300;
+	font-weight: 400;
 	color: #7D7AFF;   
 	margin-bottom: 60px;
 }

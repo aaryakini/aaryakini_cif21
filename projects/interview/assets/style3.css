@@ -131,7 +131,7 @@ a.button1:hover{
 	justify-content: flex-end;
 	text-align: right;
 	font-weight: 300;
-	color: #7D7AFF;
+	color: #7D7AFF;   
 	margin-bottom: 60px;
 }
 
@@ -142,7 +142,7 @@ a.button1:hover{
 
 .footer{ /*footer*/
 	box-sizing: border-box;
-	padding: 20px;
+	padding: 20px;   
 	display: flex;
 	flex-flow: column wrap;
 	height: 100vh;

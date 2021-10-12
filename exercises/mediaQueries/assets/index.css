@@ -1,0 +1,43 @@
+body {
+  background-color:  #FF7272;
+  font-family:  monospace;
+  padding: 50px;
+}
+
+.title{
+  font-weight: normal;
+  text-align: center;
+}
+
+.container{
+  max-width: 700px;
+  margin:  0 auto;
+}
+
+/* The body's font-size is smaller by default */
+body {
+  font-size: 16px;
+}
+
+/* Mobile breakpoint */
+@media (max-width: 768px) {
+  body {
+    font-size: 20px;
+    background-color: darkslateblue;
+    color: white;
+  }
+}
+
+/* Desktop breakpoint */
+@media (min-width: 992px) {
+  h1, h2{
+    font-size:  90px;
+  }
+}
+
+/* Wide screen breakpoint /
+@media (min-width: 1200px) {
+  body {
+    font-size: 60px;
+  }
+}*/

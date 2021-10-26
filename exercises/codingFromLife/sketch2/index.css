@@ -1,0 +1,857 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements absolute to a fluid container. This
+  means you'll need to use percentages when positioning and sizingelements within
+  your frame.
+*/
+
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: #432818;
+  margin: 2.5vw auto;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+
+/* Your CSS goes here */
+.table{
+  position: absolute;
+  left: -15%;
+  top: -5%;
+  width: 100%;
+  height: 120%;
+  transform: skew(15deg);
+  background: beige;
+  z-index: 1;
+}
+
+.circle{
+  position: absolute;
+  left: 2%;
+  top: 0%;
+  width: 60%;
+  height: 95%;
+  border-radius: 100%;
+  background-color: #344e41;
+  z-index: 2;
+}
+
+.bouquet1{
+  position: relative;
+  left: 0%;
+  top: 0%;
+  width: 102%;
+  height: 102%;
+  z-index: 5;
+}
+
+#flower1{
+  position: relative;
+  left: 2%;
+  top: 5%;
+  width: 15%;
+  height: 15%;
+}
+
+#flower2{
+  position: relative;
+  left: 10%;
+  top: 20%;
+  width: 10%;
+  height: 10%;
+}
+
+#flower3{
+  position: relative;
+  left: 19%;
+  top: 22%;
+  width: 12%;
+  height: 12%;
+}
+
+#flower4{
+  position: relative;
+  left: 38%;
+  top: 10%;
+  width: 18%;
+  height: 18%;
+}
+
+#flower5{
+  position: relative;
+  left: 2%;
+  top: 2%;
+  width: 10%;
+  height: 10%;
+}
+
+#flower6{
+  position: relative;
+  left: 3%;
+  top: 10%;
+  width: 14%;
+  height: 14%;
+}
+
+#flower7{
+  position: relative;
+  left: 25%;
+  top: -13%;
+  width: 12%;
+  height: 12%;
+}
+
+#flower8{
+  position: relative;
+  left: 32%;
+  top: -8%;
+  width: 10%;
+  height: 10%;
+}
+
+#flower9{
+  position: relative;
+  left: 25%;
+  top: -80%;
+  width: 13%;
+  height: 13%;
+}
+
+#flower10{
+  position: relative;
+  left: 38%;
+  top: -103%;
+  width: 8%;
+  height: 8%;
+}
+
+#flower11{
+  position: relative;
+  left: 18%;
+  top: -130%;
+  width: 15%;
+  height: 15%;
+}
+
+#flower12{
+  position: relative;
+  left: 55%;
+  top: -110%;
+  width: 12%;
+  height: 12%;;
+}
+
+#flower13{
+  position: relative;
+  left: 45%;
+  top: -58%;
+  width: 14%;
+  height: 14%;
+}
+
+#flower14{
+  position: relative;
+  left: 55%;
+  top: -93%;
+  width: 10%;
+  height: 10%;
+}
+
+#flower15{
+  position: relative;
+  left: 48%;
+  top: -174%;
+  width: 11%;
+  height: 11%;
+}
+
+.petal1{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  border-radius: 150px 150px 0 0;
+  background-color: rgba(255,204,204,0.2);
+  transform: rotate(45deg);
+}
+
+.petal2{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  border-radius: 150px 150px 0 0;
+  background-color: rgba(255,204,204,0.2);
+  transform: rotate(90deg);
+}
+
+.petal3{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  border-radius: 150px 150px 0 0;
+  background-color: rgba(255,204,204,0.2);
+  transform: rotate(135deg);
+}
+
+.petal4{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  border-radius: 150px 150px 0 0;
+  background-color: rgba(255,204,204,0.2);
+  transform: rotate(180deg);
+}
+
+.petal5{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  border-radius: 150px 150px 0 0;
+  background-color: rgba(255,153,153,0.2);
+  transform: rotate(225deg);
+}
+
+.petal6{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  border-radius: 150px 150px 0 0;
+  background-color: rgba(255,153,153,0.2);
+  transform: rotate(270deg);
+}
+
+.petal7{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  border-radius: 150px 150px 0 0;
+  background-color: rgba(255,153,153,0.2);
+  transform: rotate(315deg);
+}
+
+.petal8{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  border-radius: 150px 150px 0 0;
+  background-color: rgba(255,153,153,0.2);
+  transform: rotate(360deg);
+}
+
+.petal9{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  border-radius: 150px 150px 0 0;
+  background-color: rgba(255,102,102,0.2);
+  transform: rotate(45deg);
+}
+
+.petal10{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  border-radius: 150px 150px 0 0;
+  background-color: rgba(255,102,102,0.2);
+  transform: rotate(90deg);
+}
+
+.petal11{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  border-radius: 150px 150px 0 0;
+  background-color: rgba(255,102,102,0.2);
+  transform: rotate(135deg);
+}
+
+.petal12{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  border-radius: 150px 150px 0 0;
+  background-color: rgba(255,102,102,0.2);
+  transform: rotate(180deg);
+}
+
+.petal13{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  border-radius: 150px 150px 0 0;
+  background-color: rgba(255,51,51,0.2);
+  transform: rotate(225deg);
+}
+
+.petal14{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  border-radius: 150px 150px 0 0;
+  background-color: rgba(255,51,51,0.2);
+  transform: rotate(270deg);
+}
+
+.petal15{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  border-radius: 150px 150px 0 0;
+  background-color: rgba(255,51,51,0.2);
+  transform: rotate(315deg);
+}
+
+.petal16{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  border-radius: 150px 150px 0 0;
+  background-color: rgba(255,51,51,0.2);
+  transform: rotate(360deg);
+}
+
+.bouquet2{
+  position: relative;
+  left: 0%;
+  top: -100%;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+}
+
+.budCluster1{
+  position: relative;
+  left: 0%;
+  top: 22%;
+  width: 16%;
+  height: 25%;
+}
+
+.budCluster2{
+  position: relative;
+  left: 12%;
+  top: 30%;
+  width: 18%;
+  height: 30%;
+  transform: rotate(75deg);
+}
+
+.budCluster3{
+  position: relative;
+  left: 41%;
+  top: -40%;
+  width: 15%;
+  height: 26%;
+  transform: rotate(85deg);
+}
+
+.budCluster4{
+  position: relative;
+  left: 42%;
+  top: -16%;
+  width: 16%;
+  height: 25%;
+  transform: rotate(10deg);
+}
+
+.bud1{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 20%;
+  width: 20%;
+  border-radius: 100%;
+  background-image: radial-gradient(#E8DED1, #BFAA8C);
+}
+
+.bud2{
+  position: absolute;
+  top: 25%;
+  left: 12%;
+  height: 25%;
+  width: 25%;
+  border-radius: 100%;
+  background-image: radial-gradient(#E8DED1, #BFAA8C);
+}
+
+.bud3{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  height: 40%;
+  width: 40%;
+  border-radius: 100%;
+  background-image: radial-gradient(#E8DED1, #BFAA8C);
+}
+
+.bud4{
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  height: 15%;
+  width: 15%;
+  border-radius: 100%;
+  background-image: radial-gradient(#E8DED1, #BFAA8C);
+}
+
+.bud5{
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  height: 25%;
+  width: 25%;
+  border-radius: 100%;
+  background-image: radial-gradient(#E8DED1, #BFAA8C);
+}
+
+.bud6{
+  position: absolute;
+  top: 72%;
+  left: 70%;
+  height: 20%;
+  width: 20%;
+  border-radius: 100%;
+  background-image: radial-gradient(#E8DED1, #BFAA8C);
+}
+
+.leaves1{
+  position: relative;
+  left: 0%;
+  top: -200%;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+
+.leaf1{
+  position: relative;
+  left: 20%;
+  top: 20%;
+  width: 20%;
+  height: 20%;
+  border-radius:100% 0;
+  background-color: #3a5a40;
+  transform: rotate(75deg);
+}
+
+.leaf2{
+  position: relative;
+  left: 30%;
+  top: 30%;
+  width: 10%;
+  height: 10%;
+  border-radius:100% 0;
+  background-color: #3a5a40;
+  transform: rotate(45deg);
+}
+
+.leaf3{
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: 20%;
+  height: 20%;
+  border-radius:100% 0;
+  background-color: #3a5a40;
+  transform: rotate(22deg);
+}
+
+.leaf4{
+  position: relative;
+  left: 15%;
+  top: 15%;
+  width: 18%;
+  height: 18%;
+  border-radius:100% 0;
+  background-color: #3a5a40;
+  transform: rotate(60deg);
+}
+
+.leaf5{
+  position: relative;
+  left: 0%;
+  top: -70%;
+  width: 18%;
+  height: 18%;
+  border-radius:100% 0;
+  background-color: #3a5a40;
+  transform: rotate(200deg);
+}
+
+.leaf6{
+  position: relative;
+  left: 5%;
+  top: -42%;
+  width: 14%;
+  height: 14%;
+  border-radius:100% 0;
+  background-color: #3a5a40;
+  transform: rotate(316deg);
+}
+
+.leaf7{
+  position: relative;
+  left: 50%;
+  top: -70%;
+  width: 20%;
+  height: 20%;
+  border-radius:100% 0;
+  background-color: #3a5a40;
+  transform: rotate(322deg);
+}
+
+.leaf8{
+  position: relative;
+  left: 6%;
+  top: -25%;
+  width: 18%;
+  height: 18%;
+  border-radius:100% 0;
+  background-color: #3a5a40;
+  transform: rotate(335deg);
+}
+
+.leaves2{
+  position: relative;
+  left: 0%;
+  top: -300%;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  transform: rotate(45deg);
+}
+
+.leaf9{
+  position: relative;
+  left: 20%;
+  top: 20%;
+  width: 20%;
+  height: 20%;
+  border-radius:100% 0;
+  background-color: #588157;
+  transform: rotate(75deg);
+}
+
+.leaf10{
+  position: relative;
+  left: 30%;
+  top: 30%;
+  width: 10%;
+  height: 10%;
+  border-radius:100% 0;
+  background-color: #588157;
+  transform: rotate(45deg);
+}
+
+.leaf11{
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: 20%;
+  height: 20%;
+  border-radius:100% 0;
+  background-color: #588157;
+  transform: rotate(22deg);
+}
+
+.leaf12{
+  position: relative;
+  left: 15%;
+  top: 15%;
+  width: 18%;
+  height: 18%;
+  border-radius:100% 0;
+  background-color: #588157;
+  transform: rotate(60deg);
+}
+
+.leaf13{
+  position: relative;
+  left: 0%;
+  top: -70%;
+  width: 18%;
+  height: 18%;
+  border-radius:100% 0;
+  background-color: #588157;
+  transform: rotate(200deg);
+}
+
+.leaf14{
+  position: relative;
+  left: 5%;
+  top: -42%;
+  width: 14%;
+  height: 14%;
+  border-radius:100% 0;
+  background-color: #588157;
+  transform: rotate(316deg);
+}
+
+.leaf15{
+  position: relative;
+  left: 50%;
+  top: -70%;
+  width: 20%;
+  height: 20%;
+  border-radius:100% 0;
+  background-color: #588157;
+  transform: rotate(322deg);
+}
+
+.leaf16{
+  position: relative;
+  left: 6%;
+  top: -25%;
+  width: 18%;
+  height: 18%;
+  border-radius:100% 0;
+  background-color: #588157;
+  transform: rotate(335deg);
+}
+
+.leaves3{
+  position: relative;
+  left: 0%;
+  top: -400%;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  transform: rotate(90deg);
+}
+
+.leaf17{
+  position: relative;
+  left: 20%;
+  top: 20%;
+  width: 20%;
+  height: 20%;
+  border-radius:100% 0;
+  background-color: #a3b18a;
+  transform: rotate(75deg);
+}
+
+.leaf18{
+  position: relative;
+  left: 30%;
+  top: 30%;
+  width: 10%;
+  height: 10%;
+  border-radius:100% 0;
+  background-color: #a3b18a;
+  transform: rotate(45deg);
+}
+
+.leaf19{
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: 20%;
+  height: 20%;
+  border-radius:100% 0;
+  background-color: #a3b18a;
+  transform: rotate(22deg);
+}
+
+.leaf20{
+  position: relative;
+  left: 15%;
+  top: 15%;
+  width: 18%;
+  height: 18%;
+  border-radius:100% 0;
+  background-color: #a3b18a;
+  transform: rotate(60deg);
+}
+
+.leaf21{
+  position: relative;
+  left: 0%;
+  top: -70%;
+  width: 18%;
+  height: 18%;
+  border-radius:100% 0;
+  background-color: #a3b18a;
+  transform: rotate(200deg);
+}
+
+.leaf22{
+  position: relative;
+  left: 5%;
+  top: -42%;
+  width: 14%;
+  height: 14%;
+  border-radius:100% 0;
+  background-color: #a3b18a;
+  transform: rotate(316deg);
+}
+
+.leaf23{
+  position: relative;
+  left: 50%;
+  top: -70%;
+  width: 20%;
+  height: 20%;
+  border-radius:100% 0;
+  background-color: #a3b18a;
+  transform: rotate(322deg);
+}
+
+.leaf24{
+  position: relative;
+  left: 6%;
+  top: -25%;
+  width: 18%;
+  height: 18%;
+  border-radius:100% 0;
+  background-color: #a3b18a;
+  transform: rotate(335deg);
+}
+
+.leaves4{
+  position: relative;
+  left: -50%;
+  top: -450%;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  transform: rotate(135deg);
+}
+
+.leaf25{
+  position: relative;
+  left: 20%;
+  top: 20%;
+  width: 20%;
+  height: 20%;
+  border-radius:100% 0;
+  background-color: #a3b18a;
+  transform: rotate(75deg);
+}
+
+.leaf26{
+  position: relative;
+  left: 30%;
+  top: 30%;
+  width: 10%;
+  height: 10%;
+  border-radius:100% 0;
+  background-color: #a3b18a;
+  transform: rotate(45deg);
+}
+
+.leaf27{
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: 20%;
+  height: 20%;
+  border-radius:100% 0;
+  background-color: #a3b18a;
+  transform: rotate(22deg);
+}
+
+.leaf28{
+  position: relative;
+  left: 15%;
+  top: 15%;
+  width: 18%;
+  height: 18%;
+  border-radius:100% 0;
+  background-color: #a3b18a;
+  transform: rotate(60deg);
+}
+
+.leaf29{
+  position: relative;
+  left: 0%;
+  top: -70%;
+  width: 18%;
+  height: 18%;
+  border-radius:100% 0;
+  background-color: #a3b18a;
+  transform: rotate(200deg);
+}
+
+.leaf30{
+  position: relative;
+  left: 5%;
+  top: -42%;
+  width: 14%;
+  height: 14%;
+  border-radius:100% 0;
+  background-color: #a3b18a;
+  transform: rotate(316deg);
+}
+
+.leaf31{
+  position: relative;
+  left: 50%;
+  top: -70%;
+  width: 20%;
+  height: 20%;
+  border-radius:100% 0;
+  background-color: #a3b18a;
+  transform: rotate(322deg);
+}
+
+.leaf32{
+  position: relative;
+  left: 6%;
+  top: -25%;
+  width: 18%;
+  height: 18%;
+  border-radius:100% 0;
+  background-color: #a3b18a;
+  transform: rotate(335deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+body{
+	background: blue;
+}
+
+.container {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+@keyframes beating {
+0% {
+	transform: scale(1.0);
+}
+
+50% {
+	transform: scale(1.5);
+}
+100% {
+	transform: scale(1.0);
+}
+}
+
+#heart{
+	height: 50px;
+	animation: beating 1.5s infinite;
+}

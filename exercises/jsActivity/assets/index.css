@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab&display=swap');
+
 body {
   background-color:  black;
 }
@@ -17,6 +19,7 @@ section {
   border-radius: 30px;
   background-color: white;
   color: black;
+  font-family: 'Montagu Slab', serif;
   font-size: 60px;
   font-size: 20px;
   text-align: center;

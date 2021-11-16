@@ -24,6 +24,9 @@ body{
 }
 
 #heart{
-	height: 50px;
 	animation: beating 1.5s infinite;
+}
+
+svg{
+	height: 200px;
 }

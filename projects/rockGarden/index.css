@@ -1,0 +1,236 @@
+body{
+	font-family: "FK Grotesk Mono Trial", monospace, sans-serif;
+	color: #000000;
+	font-size: 20px;
+	overflow-y: hidden;
+}
+
+.content{
+	height: 100vh;
+	display: inline-flex;
+	flex-flow: row nowrap;
+}
+
+.cover{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	list-style-type: none;
+	margin-top: 10px;
+}
+
+.navbar li{
+	padding: 10px;
+	text-align: center;
+}
+
+.navbar a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.navbar a:hover{
+	text-decoration: underline;
+}
+
+.cover h1{
+	font-size: 100px;
+	font-weight: 800;
+	margin-bottom: 0px;
+}
+
+.mid{
+	font-weight: 200;
+	font-style: italic;
+}
+
+.cover h2{
+	width: 800px;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.header{
+	text-align: center;
+}
+
+.scroll{
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.museum{
+	height: 100vh;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	/*overflow: hidden;*/
+	padding-right: 100px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	margin-left: -600px;
+}
+
+.sort{
+	display: flex;
+	flex-direction: row nowrap;
+	margin-top: 10px;
+	position: sticky;
+	left: 35vw;
+	width: 600px;
+	z-index: 1;
+}
+
+.sort li{
+	list-style-type: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+
+.row1{
+	display: flex;
+	flex-direction: row nowrap;
+	align-items: flex-end;
+	padding-top: 20px;
+}
+
+.row2{
+	display: flex;
+	flex-direction: row nowrap;
+	align-items: flex-start;
+	padding-bottom: 20px;
+}
+
+.image{
+	width: 30vh;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+#acetone{
+	position: relative;
+	bottom: 0px;
+}
+
+#cotton{
+	position: relative;
+	width: 35vh;
+}
+
+#metrocard{
+	position: relative;
+	bottom: 80px;
+	width: 32vh;
+}
+
+#alcoholSwabs{
+	position: relative;
+	top: -80px;
+	width: 27vh;
+}
+
+#brita{
+	position: relative;
+	width: 35vh;
+}
+
+#coffee{
+	position: relative;
+	width: 18vh;
+}
+
+#makeupRemover{
+	position: relative;
+	width: 26vh;
+}
+
+#juice{
+	position: relative;
+	width: 27vh;
+}
+
+#foil{
+	position: relative;
+}
+
+#lipBalm{
+	position: relative;
+	width: 35vh;
+}
+
+#smoothie{
+	position: relative;
+	width: 19vh;
+}
+
+#lotion{
+	position: relative;
+	width: 25vh;
+}
+
+#matza{
+	position: relative;
+	width: 27vh;
+	top: 40px;
+}
+
+#dryerSheets{
+	position: relative;
+	bottom: 40px;
+}
+
+#kitKat{
+	position: relative;
+	width: 21vh;
+	top: -40px;
+}
+
+#receipts{
+	position: relative;
+	bottom: 120px;
+}
+
+#tide{
+	position: relative;
+	top: -120px;
+}
+
+#tostitos{
+	position: relative;
+	width: 20vh;
+}
+
+#masks{
+	position: relative;
+	width: 40vh;
+}
+
+#paperBags{
+	position: relative;
+	width: 35vh;
+}
+
+#packages{
+	position: relative;
+	width: 25vh;
+}
+
+.invisible{
+	display: none;
+}
+
+.button:hover{
+	text-decoration: underline;
+}

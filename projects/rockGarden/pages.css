@@ -1,0 +1,77 @@
+body{
+	width: 100vw;
+	height: 100vh;
+	box-sizing: border-box;
+	padding: 100px;
+	overflow: hidden;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: center;
+	font-family:  "FK Grotesk Mono Trial", monospace, sans-serif;
+	font-size: 14px;
+	color: black;
+}
+
+.content{
+	/*background-color: blue;*/
+	display: flex;
+	flex-flow: row nowrap;
+	height: 100%;
+}
+
+.image{
+	/*background-color: green;*/
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+}
+
+.image img{
+	height: fit-content;
+}
+
+.description{
+	/*background-color: pink;*/
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	width: 30%;
+}
+
+.text{
+	width: 70%;
+	padding-left: 10%;
+}
+
+.text p{
+	margin: 3px;
+}
+
+.bold{
+	font-weight: 800;
+}
+
+.space{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.slide{
+	/*background-color: red;*/
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	width: 20%;
+}
+
+.number{
+	/*background-color: yellow;*/
+	font-size: 100px;
+	-webkit-text-stroke: 3px black;
+	margin: 0px;
+}

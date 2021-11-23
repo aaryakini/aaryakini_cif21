@@ -55,3 +55,6 @@ function sunrise(count){
     body.classList.add("s10");
   }
 }
+
+
+flavor[count];

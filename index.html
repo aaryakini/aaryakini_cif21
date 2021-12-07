@@ -1,93 +1,75 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
 	<meta charset="utf-8">
-	<title>My Interaction Website</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="assets/css/index1.css">
+	<link rel="icon" href="assets/images/favicon.png">
+	<title>Aarya's Interaction Page</title>
 </head>
 
 <body>
-	<div class="banner">
-		<h1>Aarya's Interaction Website</h1>
-		<p>Core 1 Interaction | Fall 2021<br><a href="mailto:kinia313@newschool.edu">aaryakini@newschool.edu</a> | <a href="https://aaryakini.wixsite.com/portfolio" target="blank">Portfolio</a></p>
-	</div>
+		<div id="container">
+			<div class="header">Aarya's Interaction Website</div>
 
-	<div class="navbar">
-		<a href="#interview">INTERVIEW PROJECT</a>
-		<a href="#rockGarden">ROCK GARDEN</a>
-		<a href="#howTo">HOW TO</a>
-		<a href="#designJournal">DESIGN JOURNAL</a>
-		<a href="#exercises">EXERCISES</a>
-	</div>
+			<!-- Projects -->
 
-	<div id="interview" class="project">
-		<h1>Interview Project</h1>
+			<div id="interview" class="draggable project tooltip">
+				<span class="tooltiptext">interview project</span>
+				<a href="pages/interview.html"><img src="assets/images/interview.png"></a>
+			</div>
 
-		<h2>Overview</h2>
+			<div id="rock" class="draggable project tooltip">
+				<span class="tooltiptext">rock garden project</span>
+				<a href="pages/rockGarden.html"><img src="assets/images/rock.png"></a>
+			</div>
 
-		<p>For this assignment, we’ll work with typography on the internet and familiarize ourselves with basic HTML and CSS. You’ll receive a partner for this assignment, that you’ll then interview. Evaluate how you’ll divide the interview up and how you can utilize typography or graphic components to add interest that supports, not distracts from, the content. Your interview should have at least 10 unique questions.
-		<br><br>Once you have your content, you’ll design and program a website that houses the interview and introduces your partner to the class. Next, you’ll clone the HTML of your website twice so that there are three HTML files that look exactly the same. You’ll create two additional versions of the interview that are structurally the same (HTML) but visually different (CSS). All three versions of the interview will be linked together.</p>
+			<!-- Exercises -->
 
-		<h2>Code</h2>
+			<div id="hover" class="draggable ex tooltip">
+				<span class="tooltiptext">hover exercise</span>
+				<a href="pages/hover.html"><img src="assets/images/hover.png">		</a>
+			</div>
 
-		<a href="https://github.com/aaryakini/aaryakini_cif21/blob/main/projects/interview/index.html" target="blank">HTML</a>
-		<a href="" target="blank">CSS 1</a>
-		<a href="" target="blank">CSS 2</a>
-		<a href="https://github.com/aaryakini/aaryakini_cif21/blob/main/projects/interview/assets/style3.css" target="blank">CSS 3</a>
+			<div id="coding" class="draggable ex tooltip">
+				<span class="tooltiptext">coding from life</span>
+				<a href="pages/codingFromLife.html"><img src="assets/images/coding.png">			</a>
+			</div>
 
-		<h2>Final Product</h2>
-		<a href="https://aaryakini.github.io/aaryakini_cif21/projects/interview/index.html" target="blank" target="blank">WEBSITE</a>
-	</div>
+			<div id="wikipedia" class="draggable ex tooltip">
+				<span class="tooltiptext">wikipedia exercise</span>
+				<a href="pages/wikipedia.html"><img src="assets/images/wikipedia.png">		</a>
+			</div>
 
-	<div id="exercises" class="project">
-		<h1>Exercises</h1>
-		
-		<h2>Hover Activity</h2>
+			<div id="animation" class="draggable ex tooltip">
+				<span class="tooltiptext">css animation exercise</span>
+				<a href="pages/animation.html"><img src="assets/images/animation.png"></a>
+			</div>
 
-		<h3>Code</h3>
-		<a href="https://github.com/aaryakini/aaryakini_cif21/blob/main/exercises/hoverActivity/index.html" target="blank">HTML</a>
-		<a href="https://github.com/aaryakini/aaryakini_cif21/blob/main/exercises/hoverActivity/assets/index.css" target="blank">CSS</a>
+			<div id="javascript" class="draggable ex tooltip">
+				<span class="tooltiptext">javascript exercise</span>
+				<a href="pages/javascriptSketch.html"><img src="assets/images/javascript.png"></a>
+			</div>
 
-		<h3>Final Product</h3>
-		<a class="sub" href="https://aaryakini.github.io/aaryakini_cif21/exercises/hoverActivity/index.html" target="blank">WEBSITE</a>
-		
-		<h2>Wikipedia Exercise</h2>
+			<div id="p5" class="draggable ex tooltip">
+				<span class="tooltiptext">p5 sketch exercise</span>
+				<a href="pages/p5Sketch.html"><img src="assets/images/p5.png"></a>
+			</div>
 
-		<h3>Code</h3>
-		<a href="https://github.com/aaryakini/aaryakini_cif21/blob/main/exercises/wikipedia/index.html" target="blank">HTML</a>
-		<a href="https://github.com/aaryakini/aaryakini_cif21/blob/main/exercises/wikipedia/assets/index.css" target="blank">CSS</a>
+			<div id="journal" class="draggable ex tooltip">
+				<span class="tooltiptext">design journal</span>
+				<a href="pages/designJournal.html"><img src="assets/images/journal.png"></a>
+			</div>
 
-		<h3>Final Product</h3>
-		<a class="sub" href="https://aaryakini.github.io/aaryakini_cif21/exercises/wikipedia/index.html" target="blank">WEBSITE</a>
+			<!-- done -->
 
-		<h2>Coding From Life</h2>
-
-		<h3>Code - Sketch 1</h3>
-		<a href="https://github.com/aaryakini/aaryakini_cif21/blob/main/exercises/codingFromLife/sketch1/index.html" target="blank">HTML</a>
-		<a href="https://github.com/aaryakini/aaryakini_cif21/blob/main/exercises/codingFromLife/sketch1/index.css" target="blank">CSS</a>
-
-		<h3>Final Product - Sketch 1</h3>
-		<a class="sub" href="https://aaryakini.github.io/aaryakini_cif21/exercises/codingFromLife/sketch1/index.html" target="blank">WEBSITE</a>
-
-		<h3>Code - Sketch 2</h3>
-		<a href="https://github.com/aaryakini/aaryakini_cif21/blob/main/exercises/codingFromLife/sketch2/index.html" target="blank">HTML</a>
-		<a href="https://github.com/aaryakini/aaryakini_cif21/blob/main/exercises/codingFromLife/sketch2/index.css" target="blank">CSS</a>
-
-		<h3>Final Product - Sketch 2</h3>
-		<a class="sub" href="https://aaryakini.github.io/aaryakini_cif21/exercises/codingFromLife/sketch2/index.html" target="blank">WEBSITE</a>
-		
-		<h2>Javascript Activity</h2>
-
-		<h3>Code</h3>
-		<a href="https://github.com/aaryakini/aaryakini_cif21/blob/main/exercises/jsActivity/index.html" target="blank">HTML</a>
-		<a href="https://github.com/aaryakini/aaryakini_cif21/blob/main/exercises/jsActivity/index.css" target="blank">CSS</a>
-
-		<h3>Final Product</h3>
-		<a class="sub" href="https://aaryakini.github.io/aaryakini_cif21/exercises/jsActivity/index.html" target="blank">WEBSITE</a>
-	</div>
-
+			<div class="footer">
+				<a href="https://github.com/aaryakini/aaryakini_cif21" target="_blank">Github Repository</a>
+				<a href="https://aaryakini.wixsite.com/portfolio" target="_blank">Portfolio</a>
+				<a href="mailto:kinia313@newschool.edu">aaryakini@newschool.edu</a>
+				<a href="https://www.instagram.com/aaryakini/" target="_blank">Instagram: @aaryakini</a>
+			</div>
+		</div>
+		<script type="text/javascript" src="index1.js"></script>
 </body>
-
 </html>

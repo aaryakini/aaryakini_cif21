@@ -1,5 +1,6 @@
 body{
 	background: blue;
+	overflow: hidden;
 }
 
 .container {
@@ -7,7 +8,9 @@ body{
 	flex-flow: column wrap;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
+	margin-top: 10%;
+	width: 100vw;
+	height: 700px;
 }
 
 @keyframes beating {
@@ -28,5 +31,5 @@ body{
 }
 
 svg{
-	height: 200px;
+	height: 100%;
 }

@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Federo&family=Lora:wght@400;500&display=swap');
+
+body{
+	overflow: hidden;
+  	background-color: yellowgreen;
+  	box-sizing: border-box;
+}
+
+#container {
+  width: 95vw;
+  height: 90vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  padding: 30px;
+  position: absolute;
+}
+
+.header{
+	width: 60%;
+	font-family: 'Federo', sans-serif;
+	font-size: 120px;
+	text-transform: uppercase;
+	line-height: 110px;
+	padding-top: 30px;
+}
+
+.header:hover{
+	color: #D929AA;
+}
+
+.footer{
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: flex-end;
+	font-family: 'Lora', serif;
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+}
+
+.footer a{
+	color: #D929AA;
+	text-decoration: none;
+	border: 3px solid #D929AA;
+	border-radius: 20px;
+	line-height: 25px;
+	padding: 5px 15px 5px 15px;
+	margin-top: 8px;
+}
+
+.footer a:hover{
+	color: #F2EFE4;
+	background: #D929AA;
+	text-decoration: none;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 190px;
+  background-color: #D929AA;
+  color: #F2EFE4;
+  text-align: center;
+  border-radius: 20px;
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 5px 15px 5px 15px;
+  position: absolute;
+  z-index: 10;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.draggable {
+	position: absolute;
+	filter: grayscale(100%);
+  	z-index: 9;
+}
+
+.draggable:hover{
+	filter: none;
+}
+
+.project img{
+	height: auto;
+	width: 300px;
+}
+
+.ex img{
+	height: auto;
+	width: 200px;
+}
+
+#interview{
+	top: 10%;
+	left: 75%;
+}
+
+#interview img{
+	width: 150px;
+	height: auto;
+}
+
+#rock{
+	top: 40%;
+	left: 12%;
+}
+
+#hover{
+	left: 3%;
+	top: 60%;
+}
+
+#coding{
+	top: 25%;
+	left: 50%;
+}
+
+#wikipedia{
+	top: 45%;
+	left: 35%;
+}
+
+#animation{
+	top: 75%;
+	left: 60%;
+}
+
+#javascript{
+	top:  40%;
+	left: 80%;
+}
+
+#p5{
+	top: 75%;
+	left: 33%;
+}
+
+#journal{
+	top: 50%;
+	left: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

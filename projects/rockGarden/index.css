@@ -120,6 +120,10 @@ body{
 	padding-bottom: 10px;
 }
 
+.image:hover{
+	cursor: url(assets/cursor.png), auto;
+}
+
 #acetone{
 	position: relative;
 	bottom: 0px;

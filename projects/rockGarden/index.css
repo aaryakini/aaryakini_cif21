@@ -76,11 +76,10 @@ body{
 	display: inline-flex;
 	flex-direction: column;
 	justify-content: flex-end;
-	/*overflow: hidden;*/
 	padding-right: 100px;
-	padding-top: 30px;
 	padding-bottom: 20px;
-	margin-left: -600px;
+	margin-top: -30px;
+	margin-left: -850px;
 }
 
 .sort{
@@ -89,7 +88,7 @@ body{
 	margin-top: 10px;
 	position: sticky;
 	left: 35vw;
-	width: 600px;
+	width: 910px;
 	z-index: 1;
 }
 
@@ -100,10 +99,25 @@ body{
 	text-align: center;
 }
 
+/*Clearing Styling of Button*/
+/*Stack Overflow Source — https://stackoverflow.com/questions/2460100/remove-the-complete-styling-of-an-html-button-submit*/
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding-top: 20px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+	width: 180px;
+}
+/*****************************/
+
 .row1{
 	display: flex;
 	flex-direction: row nowrap;
 	align-items: flex-end;
+	margin-top: -70px;
 	padding-top: 20px;
 }
 
@@ -116,8 +130,7 @@ body{
 
 .image{
 	width: 30vh;
-	padding-right: 10px;
-	padding-bottom: 10px;
+	padding: 15px;
 }
 
 .image:hover{
@@ -126,7 +139,6 @@ body{
 
 #acetone{
 	position: relative;
-	bottom: 0px;
 }
 
 #cotton{
@@ -136,19 +148,17 @@ body{
 
 #metrocard{
 	position: relative;
-	bottom: 80px;
 	width: 32vh;
 }
 
 #alcoholSwabs{
 	position: relative;
-	top: -80px;
 	width: 27vh;
 }
 
 #brita{
 	position: relative;
-	width: 35vh;
+	width: 30vh;
 }
 
 #coffee{
@@ -188,28 +198,24 @@ body{
 #matza{
 	position: relative;
 	width: 27vh;
-	top: 40px;
 }
 
 #dryerSheets{
 	position: relative;
-	bottom: 40px;
 }
 
 #kitKat{
 	position: relative;
 	width: 21vh;
-	top: -40px;
 }
 
 #receipts{
 	position: relative;
-	bottom: 120px;
 }
 
 #tide{
 	position: relative;
-	top: -120px;
+	width: 20vh;
 }
 
 #tostitos{

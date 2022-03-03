@@ -6,6 +6,8 @@ function togglePlastic(){
 	for (let i = 0; i < x.length; i++){
 		if (x[i].style.display === "block") {
 		x[i].style.display = "none";
+		let j=document.getElementById("plastic");
+		j.style.textDecoration = "underline";
 		} else {
 			x[i].style.display = "block";
 		}
@@ -18,6 +20,8 @@ function toggleNonPlastic(){
 	for (let i = 0; i < x.length; i++){
 		if (x[i].style.display === "block") {
 		x[i].style.display = "none";
+		let j=document.getElementById("nonplastic");
+		j.style.textDecoration = "underline";
 		} else {
 			x[i].style.display = "block";
 		}
@@ -30,6 +34,8 @@ function toggleRecycled(){
 	for (let i = 0; i < x.length; i++){
 		if (x[i].style.display === "block") {
 		x[i].style.display = "none";
+		let j=document.getElementById("recycled");
+		j.style.textDecoration = "underline";
 		} else {
 			x[i].style.display = "block";
 		}
@@ -42,6 +48,8 @@ function toggleNonRecycled(){
 	for (let i = 0; i < x.length; i++){
 		if (x[i].style.display === "block") {
 		x[i].style.display = "none";
+		let j=document.getElementById("nonrecycled");
+		j.style.textDecoration = "underline";
 		} else {
 			x[i].style.display = "block";
 		}

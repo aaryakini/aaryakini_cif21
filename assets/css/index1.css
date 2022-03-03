@@ -76,6 +76,16 @@ body{
   z-index: 10;
 }
 
+.tooltip .tooltiptext a{
+	text-decoration: none;
+	color: white;
+}
+
+.tooltip .tooltiptext a:hover{
+	text-decoration: underline;
+	font-style: italic;
+}
+
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }

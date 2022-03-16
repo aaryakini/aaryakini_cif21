@@ -1,85 +1,85 @@
-// let body = document.body;
-
-// let button1 = document.querySelector(".plastic");
-// button1.addEventListener("click", hidePlastic);
-
-// let button2 = document.querySelector(".nonplastic");
-// button2.addEventListener("click", hideNonPlastic);
-
-// let button3 = document.querySelector(".rec");
-// button3.addEventListener("click", hideRec);
-
-// let button4 = document.querySelector(".nonrec");
-// button4.addEventListener("click", hideNonRec);
-
-
-// function hidePlastic(){
-// 	if (body.classList.contains("plastic")){
-// 		body.classList.toggle("invisible");
-// 	}
-// }
-
-// function hideNonPlastic(){
-// 	if (body.classList.contains("nonplastic")){
-// 		body.classList.toggle("invisible");
-// 	}
-// }
-
-// function hideRec(){
-// 	if (body.classList.contains("rec")){
-// 		body.classList.toggle("invisible");
-// 	}
-// }
-
-// function hideNonRec(){
-// 	if (body.classList.contains("nonrec")){
-// 		body.classList.toggle("invisible");
-// 	}
-// }
-
 let body = document.body;
+let plastic = document.getElementById("plastic");
+let nonplastic = document.getElementById("nonplastic");
+let recycled = document.getElementById("recycled");
+let nonrecycled = document.getElementById("nonrecycled");
 
-let button1 = document.querySelectorAll(".plastic");
-for (let i = 0 ; i < button1.length; i++) {
-   button1[i].addEventListener('click',hidePlastic);
-   console.log(button1[i]);
-}
-
-let button2 = document.querySelectorAll(".nonplastic");
-for (let j = 0 ; j < button2.length; j++) {
-   button2[j].addEventListener('click',hideNonPlastic);
-}
-
-let button3 = document.querySelectorAll(".rec");
-for (let k = 0 ; k < button3.length; k++) {
-   button3[k].addEventListener('click',hideRec);
-}
-let button4 = document.querySelectorAll(".nonrec");
-for (let l = 0 ; l < button4.length; l++) {
-   button4[l].addEventListener('click',hideNonRec);
-}
-
-function hidePlastic(button1){
-	for (let i = 0; i < button1.length; i++)
-	if (body.classList.contains("plastic")){
-		body.classList.toggle("invisible");
+//shows only plastic
+function togglePlastic(){
+	let x = document.getElementsByClassName("nonplastic");
+	for (let i = 0; i < x.length; i++){
+		if (x[i].style.display === "none") {
+			x[i].style.display = "block";
+			plastic.style.textDecoration = "none";
+			nonplastic.disabled = false;
+			recycled.disabled = false;
+			nonrecycled.disabled = false;
+		} else {
+			x[i].style.display = "none";
+			plastic.style.textDecoration = "underline";
+			nonplastic.disabled = true;
+			recycled.disabled = true;
+			nonrecycled.disabled = true;
+		}
 	}
 }
 
-function hideNonPlastic(){
-	if (body.classList.contains("nonplastic")){
-		body.classList.toggle("invisible");
+//shows only nonplastic
+function toggleNonPlastic(){
+	let x = document.getElementsByClassName("plastic");
+	for (let i = 0; i < x.length; i++){
+		if (x[i].style.display === "none") {
+			x[i].style.display = "block";
+			nonplastic.style.textDecoration = "none";
+			plastic.disabled = false;
+			recycled.disabled = false;
+			nonrecycled.disabled = false;
+		} else {
+			x[i].style.display = "none";
+			nonplastic.style.textDecoration = "underline";
+			plastic.disabled = true;
+			recycled.disabled = true;
+			nonrecycled.disabled = true;
+		}
 	}
 }
 
-function hideRec(){
-	if (body.classList.contains("rec")){
-		body.classList.toggle("invisible");
+//shows only recycled
+function toggleRecycled(){
+	let x = document.getElementsByClassName("nonrecycled");
+	for (let i = 0; i < x.length; i++){
+		if (x[i].style.display === "none") {
+			x[i].style.display = "block";
+			recycled.style.textDecoration = "none";
+			nonrecycled.disabled = false;
+			plastic.disabled = false;
+			nonplastic.disabled = false;
+		} else {
+			x[i].style.display = "none";
+			recycled.style.textDecoration = "underline";
+			nonrecycled.disabled = true;
+			plastic.disabled = true;
+			nonplastic.disabled = true;
+		}
 	}
 }
 
-function hideNonRec(){
-	if (body.classList.contains("nonrec")){
-		body.classList.toggle("invisible");
+//shows only nonrecycled
+function toggleNonRecycled(){
+	let x = document.getElementsByClassName("recycled");
+	for (let i = 0; i < x.length; i++){
+		if (x[i].style.display === "none") {
+			x[i].style.display = "block";
+			nonrecycled.style.textDecoration = "none";
+			recycled.disabled = false;
+			plastic.disabled = false;
+			nonplastic.disabled = false;
+		} else {
+			x[i].style.display = "none";
+			nonrecycled.style.textDecoration = "underline";
+			recycled.disabled = true;
+			plastic.disabled = true;
+			nonplastic.disabled = true;
+		}
 	}
 }

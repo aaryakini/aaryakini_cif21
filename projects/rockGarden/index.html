@@ -6,17 +6,15 @@
 	<title>Trash Museum</title>
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script type="text/javascript" src="index2.js"></script>
+	</script>
+	
 </head>
 
 <body>
 	<div class="content">
 		<div class="cover">
 			<div class="navbar">
-				<li><a href="pages/about.html" target="_blank">about</a></li>
-				<li><p> | </p></li>
-				<li><a href="pages/help.html" target="_blank">help</a></li>
+				<p><a href="pages/about.html" target="_blank">about</a> | <a href="pages/help.html" target="_blank">help</a></p>
 			</div>
 
 			<div class="header">
@@ -30,17 +28,11 @@
 			</div>
 		</div>
 
-		<div class="sort">
-			<li><button id="plastic" onClick="togglePlastic()">plastic</button></li>
-			<li><p> | </p></li>
-			<li><button id="nonplastic" onClick="toggleNonPlastic()">paper</button></li>
-			<li><p> | </p></li>
-			<li><button id="recycled" onClick="toggleRecycled()">recycled</button></li>
-			<li><p> | </p></li>
-			<li><button id="nonrecycled" onClick="toggleNonRecycled()">non-recycled</button></li>
-		</div> 
-
 		<div class="museum">
+			<div class="sort">
+				<p><button id="plastic" onClick="togglePlastic()">plastic</button> | <button id="nonplastic" onClick="toggleNonPlastic()">paper</button> | <button id="recycled" onClick="toggleRecycled()">recycled</button> | <button id="nonrecycled" onClick="toggleNonRecycled()">non-recycled</button></p>
+			</div>
+
 			<div class="row1">
 				<a href="pages/acetone.html" target="_blank" style="z-index: 2;"><img class="image plastic nonrecycled" id="acetone" src="assets/acetone.png"></a>
 				
@@ -88,6 +80,8 @@
 			</div>
 		</div>
 	</div>
+
+	<script type="text/javascript" src="index.js"></script>
 	
 </body>
 </html>

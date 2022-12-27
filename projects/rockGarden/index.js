@@ -11,7 +11,7 @@ function togglePlastic(){
 		if (x[i].style.display === "none") {
 			x[i].style.display = "block";
 			plastic.style.textDecoration = "none";
-			nonplastic.disabled = false;
+			nonplastic.disabled = false; //automatically renders elements unclickable
 			recycled.disabled = false;
 			nonrecycled.disabled = false;
 		} else {

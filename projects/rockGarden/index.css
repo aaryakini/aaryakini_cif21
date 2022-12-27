@@ -1,37 +1,31 @@
 body{
 	font-family: "FK Grotesk Mono Trial", monospace, sans-serif;
 	color: #000000;
-	font-size: 20px;
 	overflow-y: hidden;
+	/*box-sizing: border-box;*/
 }
 
 .content{
 	height: 100vh;
 	display: inline-flex;
 	flex-flow: row nowrap;
+	margin-left: -10px;
+	/*background-color: yellowgreen;*/
 }
 
 .cover{
 	width: 100vw;
-	height: 100vh;
 	display: flex;
-	flex:  1 1 auto;
 	flex-flow: column nowrap;
 	justify-content: center;
 	align-items: center;
 	justify-content: space-between;
+	text-align: center;
+	margin: 4vh 0vh;
 }
 
 .navbar{
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: center;
-	align-items: center;
-	list-style-type: none;
-}
-
-.navbar p{
-	padding: 10px;
+	display: block;
 	text-align: center;
 }
 
@@ -44,46 +38,49 @@ body{
 	text-decoration: underline;
 }
 
-.cover h1{
-	font-size: 100px;
-	font-weight: 800;
-	margin-bottom: 0px;
+.header{
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
 }
 
-.mid{
+.header h1{
+	font-size: max(6vw, 22px);
+	font-weight: 800;
+	margin: 0vh 0vh;
+}
+
+.header .mid{
 	font-weight: 200;
 	font-style: italic;
 }
 
 .cover h2{
-	width: 800px;
+	font-size: max(1.1vw, 12px);
+	min-width: 250px;
+	max-width: 40vw;
 	font-weight: 400;
-	font-size: 20px;
-}
-
-.header{
-	text-align: center;
-}
-
-.scroll{
-	text-align: center;
-	margin-bottom: 80px;
+	margin: 0vh 0vh;
 }
 
 .museum{
-	height: 100vh;
 	display: flex;
 	min-width: 100vw;
 	flex-direction: column;
-	justify-content: space-between;
-	padding-bottom: 20px;
+	margin: 4vh 0vh;
+	background-color: pink;
 }
 
 .museum .sort{
+	font-size: max(1.1vw, 12px);
+	text-align: center;
 	position: sticky;
-	left: 55vh;
+	left: 35vw;
 	align-self: flex-start;
-	margin-bottom: 10px;
+	display: block;
+	text-align: center;
+	padding-bottom: 2.5vh;
 }
 
 button:disabled,
@@ -110,8 +107,8 @@ button, input[type="submit"], input[type="reset"] {
 	flex-direction: row nowrap;
 	justify-content: center;
 	align-items: flex-end;
-	height: 45vh;
-	padding-right: 50px;
+	height: 34vh;
+	padding-bottom: 1vh;
 }
 
 .row2{
@@ -119,56 +116,63 @@ button, input[type="submit"], input[type="reset"] {
 	flex-direction: row nowrap;
 	justify-content: center;
 	align-items: flex-start;
-	height: 45vh;
+	height: 34vh;
 	padding-right: 50px;
 }
 
-.image{
+.image {
+	position: relative;
+	height: 34vh;
+	padding-right: 10px;
+}
+
+/*.image{
+	position: relative;
+	height: 100%;
 	width: 30vh;
 	padding: 10px;
-}
+}*/
 
 .image:hover{
 	cursor: url(assets/cursor.png), auto;
 }
 
 #acetone{
-	position: relative;
+	/*no changes*/
 }
 
 #cotton{
-	position: relative;
-	width: 35vh;
+	width: 28vh;
+	height: auto;
 }
 
 #metrocard{
-	position: relative;
-	width: 32vh;
+	width: 35vh;
+	height: auto;
 }
 
 #alcoholSwabs{
-	position: relative;
-	width: 27vh;
+	height: 28vh;
+	width: auto;
 }
 
 #brita{
-	position: relative;
-	width: 30vh;
+	height: 26vh;
+	width: auto;
 }
 
 #coffee{
-	position: relative;
-	width: 18vh;
+	/*no changes*/
 }
 
 #makeupRemover{
-	position: relative;
-	width: 26vh;
+	height: 30vh;
+	width: auto;
 }
 
 #juice{
-	position: relative;
-	width: 27vh;
+	height: 30vh;
+	width: auto;
 }
 
 #foil{
@@ -176,67 +180,60 @@ button, input[type="submit"], input[type="reset"] {
 }
 
 #lipBalm{
-	position: relative;
-	width: 35vh;
+	height: 30vh;
+	width: auto;
 }
 
 #smoothie{
-	position: relative;
-	width: 19vh;
+	height: 30vh;
+	width: auto;
 }
 
 #lotion{
-	position: relative;
-	width: 25vh;
+	height: 28vh;
+	width: auto;
 }
 
 #matza{
-	position: relative;
-	width: 27vh;
+	height: 26vh;
+	width: auto;
 }
 
 #dryerSheets{
-	position: relative;
+	/*no changes*/
 }
 
 #kitKat{
-	position: relative;
-	width: 21vh;
+	/*no changes*/
 }
 
 #receipts{
-	position: relative;
+	/*no changes*/
 }
 
 #tide{
-	position: relative;
-	width: 20vh;
+	height: 28vh;
+	width: auto;
 }
 
 #tostitos{
-	position: relative;
-	width: 20vh;
+	height: 30vh;
+	width: auto;
 }
 
 #masks{
-	position: relative;
-	width: 40vh;
+	/*no changes*/
 }
 
 #paperBags{
-	position: relative;
-	width: 35vh;
+	height: 28vh;
+	width: auto;
 }
 
 #packages{
-	position: relative;
-	width: 25vh;
+	/*no changes*/
 }
 
 .invisible{
 	display: none;
-}
-
-.button:hover{
-	text-decoration: underline;
 }

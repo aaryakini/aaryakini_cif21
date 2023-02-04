@@ -2,49 +2,44 @@ body{
 	width: 100vw;
 	height: 100vh;
 	box-sizing: border-box;
-	padding: 100px;
 	overflow: hidden;
 	display: flex;
 	flex-flow: row nowrap;
 	align-items: center;
 	justify-content: center;
 	font-family:  "FK Grotesk Mono Trial", monospace, sans-serif;
-	font-size: 14px;
 	color: black;
 }
 
 .content{
-	/*background-color: blue;*/
 	display: flex;
 	flex-flow: row nowrap;
-	height: 100%;
+	margin: 5vh 15vw;
+	padding: 50px;
 }
 
 .image{
-	background-color: green;
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: center;
-	align-items: center;
 	width: 50%;
 }
 
 .image img{
-	height: fit-content;
+	width: 100%;
+	height: auto;
 }
 
 .description{
-	/*background-color: pink;*/
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: center;
 	align-items: center;
-	width: 30%;
+	width: 35%;
+	min-width: 210px;
 }
 
 .text{
 	width: 70%;
 	padding-left: 10%;
+	font-size: max(0.8vw, 9px);
 }
 
 .text p{
@@ -61,17 +56,88 @@ body{
 }
 
 .slide{
-	/*background-color: red;*/
+	width: 15%;
 	display: flex;
-	flex-flow: row nowrap;
-	justify-content: center;
-	align-items: flex-start;
-	width: 20%;
+	flex-flow: column nowrap;
+	justify-content: space-between;
 }
 
-.number{
-	/*background-color: yellow;*/
-	font-size: 100px;
+.slide svg a{
+	fill: lightgrey;
+}
+
+.slide svg a:hover{
+	fill: black;
+}
+
+.slide p{
+	font-size: max(8vw, 12px);
 	-webkit-text-stroke: 3px black;
 	margin: 0px;
+	text-align: right;
+}
+
+@media only screen and (max-width: 600px){
+	body{
+		width: 100vw;
+		box-sizing: border-box;
+		padding:50px;
+		display: flex;
+		flex-flow: row nowrap;
+		align-items: center;
+		justify-content: center;
+		font-family:  "FK Grotesk Mono Trial", monospace, sans-serif;
+		color: black;
+	}
+
+	.content{
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: flex-start;
+		align-items: center;
+		margin: 10vh 5vw;
+	}
+
+	.image{
+		width: 90%;
+		height: auto;
+	}
+
+	.description{
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: flex-start;
+		align-items: center;
+		width: 100%;
+		margin-bottom: 6vw;
+	}
+
+	.text{
+		width: 55%;
+		font-size: max(1vw, 9px);
+	}
+
+	.text p{
+		margin: 3px;
+	}
+
+	.bold{
+		font-weight: 800;
+	}
+
+	.space{
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.slide{
+		width: 90%;
+		height: auto;
+	}
+
+	.slide p{
+		font-size: 70px;
+		-webkit-text-stroke: 3px black;
+	}
+
 }

@@ -64,12 +64,17 @@ body{
 	margin: 0vh 0vh;
 }
 
+.scroll img{
+	width: 12vw;
+}
+
 .museum{
 	display: flex;
 	min-width: 100vw;
 	flex-direction: column;
 	margin: 4vh 0vh;
-	background-color: pink;
+/*	background-color: pink;*/
+	margin-right: 3vw;
 }
 
 .museum .sort{
@@ -125,13 +130,6 @@ button, input[type="submit"], input[type="reset"] {
 	height: 34vh;
 	padding-right: 10px;
 }
-
-/*.image{
-	position: relative;
-	height: 100%;
-	width: 30vh;
-	padding: 10px;
-}*/
 
 .image:hover{
 	cursor: url(assets/cursor.png), auto;
@@ -237,3 +235,24 @@ button, input[type="submit"], input[type="reset"] {
 .invisible{
 	display: none;
 }
+
+svg{
+	width: 40vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

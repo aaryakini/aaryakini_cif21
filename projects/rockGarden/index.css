@@ -10,7 +10,6 @@ body{
 	display: inline-flex;
 	flex-flow: row nowrap;
 	margin-left: -10px;
-	/*background-color: yellowgreen;*/
 }
 
 .cover{
@@ -73,7 +72,6 @@ body{
 	min-width: 100vw;
 	flex-direction: column;
 	margin: 4vh 0vh;
-/*	background-color: pink;*/
 	margin-right: 3vw;
 }
 

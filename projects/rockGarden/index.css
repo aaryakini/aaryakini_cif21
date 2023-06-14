@@ -2,6 +2,7 @@ body{
 	font-family: "FK Grotesk Mono Trial", monospace, sans-serif;
 	color: #000000;
 	overflow-y: hidden;
+	cursor: url(assets/cursor.png), auto;
 	/*box-sizing: border-box;*/
 }
 
@@ -31,10 +32,12 @@ body{
 .navbar a{
 	text-decoration: none;
 	color: #000000;
+	cursor: url(assets/cursor.png), auto;
 }
 
 .navbar a:hover{
 	text-decoration: underline;
+	cursor: url(assets/cursor.png), auto;
 }
 
 .header{
@@ -89,6 +92,14 @@ body{
 button:disabled,
 button[disabled]{
 	color: lightgrey;
+}
+
+button{
+	cursor: url(assets/cursor.png), auto;
+}
+
+button:hover{
+	cursor: url(assets/cursor.png), auto;
 }
 
 /*Clearing Styling of Button*/
